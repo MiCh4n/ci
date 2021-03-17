@@ -2,7 +2,7 @@ FROM alpine
 
 WORKDIR /app
 
-RUN apk add --nRUN apk add --no-cache \
+RUN apk add --no-cache \
       curl \
       git
 
